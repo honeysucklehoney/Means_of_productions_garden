@@ -1,0 +1,156 @@
+/* CSS files add styling rules to your content */
+
+@font-face{
+
+  font-family: tag_font;
+  src: url(https://cdn.glitch.com/e93017c0-53cc-4d49-b6a9-bcc10fdba0ab%2FSpaceGrotesk-Regular.woff?v=1597588739448);
+
+}
+
+
+	.lets {
+		border-collapse:collapse;
+    background:#00292E;
+    table-layout: fixed;
+    border:1px inset #FBFF00;
+    margin: 0;
+    padding: 0;
+
+
+
+	}
+	.lets caption {
+		caption-side:bottom;
+		text-align:left;
+	}
+	.lets th {
+		#background:#00292E;
+	}
+	.lets td {
+		padding:10px;
+    height: inherit;
+	}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  background: yellow;
+
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.bg_img {
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  boarder: 0px;
+  background-position: center; /* Center the image */
+} 
+
+
+
+
+.row1 {
+
+  height: 10px;
+
+
+}
+
+.row3 {
+
+  height: 50px;
+
+
+}
+
+.row7 {
+
+  height: 50px;
+
+}
+
+.row11{
+
+  height: 50px;
+}
+
+
+
+  .quince {
+    bgcolor: white;
+  background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/8020510/original_86c898d82c477b756a8e5da99db98504.jpg?1594864756?bc=0);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  boarder: 0px;
+  }
+
+.quince_alt {
+
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/8349639/large_2221d6b4578c6d798d402d7ea6c3cd94.jpg?1597578906?bc=0");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  boarder: 0px;
+  padding: 0px;
+}
+
+/* #food_N {
+
+
+  color: transparent;
+  font-family: tag_font;
+ -webkit-animation: glow 5s ease-in-out infinite alternate;
+  -moz-animation: glow 5s ease-in-out infinite alternate;
+  animation: glow 9s ease-in-out infinite alternate;
+  font-size: 0.4em
+} */
+
+div{
+
+    cell-padding: 0px;
+  cell-spacing: 0px;
+}
+
+
+  @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px yellow, 0 0 10px  yellow, 0 0 8px lime, 0 0 3em purple, 0 0 4em purple, 0 0 1em red, 0 0 7em lime;
+  }
+  to {
+    text-shadow: 0 0 10px lime, 0 0 10px lime, 0 0 8 yellow, 0 0 2em forestgreen, 0 0 2em red, 0 0 4em red, 0 0 4em purple;
+  }
+}
+
+
+@media screen and (max-width: 3000px) {
+
+  .lets{
+        table-layout: fixed;
+        width: 2000px;
+        height: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0;
+
+
+
+  }
+
+  @media screen and (max-width: 600px) {
+
+  .lets{
+       table-layout: fixed;
+        width: 20em;
+
+
+
+  }
+
+
+
+}
