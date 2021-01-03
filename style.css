@@ -1,5 +1,7 @@
 /* CSS files add styling rules to your content */
 
+/* CSS files add styling rules to your content */
+
 @font-face{
 
   font-family: tag_font;
@@ -7,15 +9,19 @@
 
 }
 
+.buttonbox {
+
+position: absolute;
+
+
+
+}
+
 
 	.lets {
-		border-collapse:collapse;
-    background:#00292E;
+    border-collapse:collapse;
+    background:yellow;
     table-layout: fixed;
-    border:1px inset #FBFF00;
-    margin: 0;
-    padding: 0;
-
 
 
 	}
@@ -24,46 +30,49 @@
 		text-align:left;
 	}
 	.lets th {
-		#background:#00292E;
+		background:#00292E;
+
 	}
 	.lets td {
-		padding:10px;
-    height: inherit;
+    border: 1px solid yellow;
+    border-style: double;
 	}
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 0;
+  margin-left:25%;
+  margin-right:25%;
   background: yellow;
 
+
+
 }
+
 
 h1 {
   font-style: italic;
   color: #373fff;
 }
 
-.bg_img {
+.bg_img  {
 
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  boarder: 0px;
   background-position: center; /* Center the image */
 } 
 
 
 
+/* .row1 {
 
-.row1 {
-
-  height: 10px;
+  height: 50px;
 
 
 }
 
 .row3 {
 
-  height: 50px;
+  height: 70px;
 
 
 }
@@ -74,19 +83,88 @@ h1 {
 
 }
 
-.row11{
+.row11 {
 
   height: 50px;
 }
 
+.row19{
+
+height: 50px;
+
+}
+
+.row21{
+
+height:25px;
+
+}
+
+.row22{
+
+  height:50px;
+}
+
+.row26 {
+
+height: 50px;
+
+}
+
+.row28 {
+
+height: 25px;
+
+}
+
+.row35 {
+
+height: 25px;
+
+}
+
+.row31{
+
+height: 25px;
+
+}
+
+.row33 {
+
+height: 25px;
+
+}
+
+.row37 {
+
+  height: 25px;
+
+}
+
+.row39 {
+
+  height: 25px;
+
+}
+
+.row42 {
+
+height: 25px;
+
+}
+
+.row43 {
+
+height: 50px;
+
+} */
+
 
 
   .quince {
-    bgcolor: white;
   background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/8020510/original_86c898d82c477b756a8e5da99db98504.jpg?1594864756?bc=0);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  boarder: 0px;
   }
 
 .quince_alt {
@@ -94,26 +172,154 @@ h1 {
   background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/8349639/large_2221d6b4578c6d798d402d7ea6c3cd94.jpg?1597578906?bc=0");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  boarder: 0px;
   padding: 0px;
 }
 
-/* #food_N {
+.plum {
+
+background-image: url("images/plumtree.jpg");
+
+}
+
+.bark {
+
+background-image: url("images/bark.jpg");
+
+}
+
+.bark_alt {
+
+background-image: url("images/bark2.jpg");
+
+}
+
+.nettlenettlenettle{
+
+  background-image: url("images/nettle2.jpg");
+
+}
+
+.spruce {
+
+  background-image: url("images/sprucetree.jpg");
+
+
+}
+
+.paulownia {
+
+  background-image: url("images/paulowniatree.jpg");
+
+
+}
+
+.blackberry {
+
+background-image: url("images/blackberry.jpg")
+
+}
+
+
+.willow {
+
+  background-image: url("images/willow3.jpg")
+
+
+}
+
+.bushel {
+
+background-color: #4d4d00;
+
+}
+
+.and_a_peck {
+
+background-color: #304701;
+
+
+}
+
+.a_hug {
+
+  background-color: Ivory;
+
+
+}
+
+.around_the_neck {
+
+background-color: LightGoldenRodYellow;
+
+}
+
+.and_a_barrel {
+
+background-color: #698000;
+
+}
+
+.andaheap {
+
+  background-color: #3b5900;
+
+}
+
+.heyo {
+
+background-color: #4d4d00;
+
+}
+
+.windand {
+
+background-color: #999900;
+
+}
+
+.therain {
+
+  background-color: #2b2b00;
+
+}
+
+.im_talkin{
+
+background-color: #1b2603;
+
+}
+
+.inmysleep {
+
+  background-color: #baba02;
+
+
+}
+
+.about_you {
+
+background-color: #a8ba02;
+
+}
+
+.causeiloveu{
+
+background-color: #293d01;
+
+}
+
+.food_N {
 
 
   color: transparent;
-  font-family: tag_font;
+  font-family: arial;
  -webkit-animation: glow 5s ease-in-out infinite alternate;
   -moz-animation: glow 5s ease-in-out infinite alternate;
   animation: glow 9s ease-in-out infinite alternate;
-  font-size: 0.4em
-} */
-
-div{
-
-    cell-padding: 0px;
-  cell-spacing: 0px;
+  font-size: 0.4em;
 }
+
+
 
 
   @-webkit-keyframes glow {
@@ -128,16 +334,19 @@ div{
 
 @media screen and (max-width: 3000px) {
 
-  .lets{
-        table-layout: fixed;
-        width: 2000px;
-        height: auto;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin: 0;
+table{
+
+width: 100%;
+height: 800px;
 
 
+
+}
+
+
+  .lets table {
+        width: 100%;
+        height: 100%;
 
   }
 
@@ -145,7 +354,7 @@ div{
 
   .lets{
        table-layout: fixed;
-        width: 20em;
+        width: 100%;
 
 
 
