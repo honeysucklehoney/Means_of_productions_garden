@@ -1,52 +1,274 @@
-/* CSS files add styling rules to your content */
-
-/* CSS files add styling rules to your content */
 
 @font-face{
 
   font-family: tag_font;
   src: url(https://cdn.glitch.com/e93017c0-53cc-4d49-b6a9-bcc10fdba0ab%2FSpaceGrotesk-Regular.woff?v=1597588739448);
 
+
 }
 
-.buttonbox {
+@font-face {
+
+  font-family: bluunext;
+  src: url(bluunext-bold-webfont.woff);
+}
+
+
+.explain {
+
+position:absolute;
+right: 0px;
+top:15px;
+width: 50%;
+border: 1px ;
+border-style: solid;
+border-color: yellow;
+/* border-radius: 100px; */
+padding: 20px;
+background-color: white;
+font-size: 12px;
+color: black;
+
+}
+
+.explain_pt2 {
 
 position: absolute;
-
-
+right: 0px;
+top:140px;
+width: 200px;
+border: 1px ;
+border-style: solid;
+border-color: yellow;
+padding: 20px;
+background-color: white;
+font-size: 10px;
 
 }
 
 
-	.lets {
+#buttonbox {
+
+position: static;
+padding: 30px;
+
+
+}
+
+#expandbutton {
+
+  width: 40%;
+  height: 100px;
+  border: 2px;
+  border-style: inset;
+  border-color: yellow;
+  background-color: lightyellow;
+  font-family: bluunext;
+  font-size: 50px;
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+#expandbutton:focus {
+
+outline:none;
+
+}
+
+
+	#lets {
     border-collapse:collapse;
     background:yellow;
     table-layout: fixed;
+    height: 600px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
 
 
 	}
-	.lets caption {
+	#lets caption {
 		caption-side:bottom;
 		text-align:left;
 	}
-	.lets th {
+	#lets th {
 		background:#00292E;
 
 	}
-	.lets td {
+	#lets td {
     border: 1px solid yellow;
     border-style: double;
 	}
 
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin-left:25%;
-  margin-right:25%;
-  background: yellow;
+  body {
 
+  background: floralwhite;
+  font-family: tag_font;
+  margin: 0;
+
+
+  }
+
+#popdownfibre{
+
+background-color: cornflowerblue;
+display: none;
+padding: 10px;
 
 
 }
+
+.fibre_plant_id {
+
+width: 180px;
+height: 240px;
+margin: 25px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+#fibre_plant_id_name {
+
+font-size: 14px;
+font-family: tag_font;
+margin: 0;
+text-align: center;
+
+}
+
+.Id_formating {
+
+right: 0px;
+top: 300px;
+width: 225px;
+height: 125px;
+position: absolute;
+
+}
+
+#fibre_plants_button{
+
+text-align: center;
+display: inline-block;
+font-size: 25px;
+background-color: white;
+background-size: 100%, 100%;
+border: none;
+outline: none;
+margin-bottom: 10px;
+font-family: tag_font;
+color: blue;
+
+}
+
+
+#fibre_plants_button:focus{
+
+
+  outline: none;
+
+
+}
+
+#fibre_plants_button:hover{
+
+
+  outline: none;
+  background-color: yellow;
+
+
+}
+
+.dye_plant_id {
+
+width: 80px;
+height: 100px;
+padding: 10px;
+margin-left: 50px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+#dye_plant_id_name {
+
+  font-family: tag_font;
+  margin: 0;
+  text-align: center;
+}
+
+#dye_plants_button{
+
+text-align: center;
+display: inline-block;
+background-color: yellow;
+color: black;
+border: none;
+margin-bottom: 10px;
+font-family: tag_font;
+font-size: 25px;
+color: blue;
+
+
+}
+
+
+#dye_plants_button:focus{
+
+  text-align: center;
+  display: inline-block;
+  background-color: white;
+  border: none;
+  outline:none;
+  margin-bottom: 10px;
+  font-family: tag_font;
+  font-size: 25px;
+  color: blue;
+
+}
+
+.Id_formating2 {
+
+left: 100px;
+top: 20%;
+width: 225px;
+height: 125px;
+position: absolute;
+
+}
+
+
+#popdowndye{
+
+background-color: cornflowerblue;
+display: none;
+
+
+}
+
+
+ /* #letslarger {
+  border-collapse:collapse;
+  background:yellow;
+  table-layout: fixed;
+  width: 100%;
+  height: 1500px;
+  display: none;
+
+}
+
+#letslarger th {
+  background:#00292E;
+
+}
+#letslarger td {
+  border: 1px solid yellow;
+  border-style: double;
+}
+ */
+
+
 
 
 h1 {
@@ -227,6 +449,13 @@ background-image: url("images/blackberry.jpg")
 
 }
 
+.iloveyou {
+
+
+/*this ones just for me*/
+
+}
+
 .bushel {
 
 background-color: #4d4d00;
@@ -265,24 +494,6 @@ background-color: #698000;
 
 }
 
-.heyo {
-
-background-color: #4d4d00;
-
-}
-
-.windand {
-
-background-color: #999900;
-
-}
-
-.therain {
-
-  background-color: #2b2b00;
-
-}
-
 .im_talkin{
 
 background-color: #1b2603;
@@ -308,6 +519,27 @@ background-color: #293d01;
 
 }
 
+
+.heyo {
+
+background-color: #4d4d00;
+
+}
+
+.windand {
+
+background-color: #999900;
+
+}
+
+.therain {
+
+  background-color: #2b2b00;
+
+}
+
+
+
 .food_N {
 
 
@@ -318,6 +550,17 @@ background-color: #293d01;
   animation: glow 9s ease-in-out infinite alternate;
   font-size: 0.4em;
 }
+
+.fibre > .about_you.fibre, .andaheap.fibre, .causeiloveu.fibre, .im_talkin.fibre, .about_you.fibre .therain.fibre, .inmysleep.fibre, .heyo.fibre, .and_a_peck.fibre{
+
+
+}
+
+.dye > .causeiloveu.dye, .andaheap.dye {
+
+  
+}
+
 
 
 
@@ -332,12 +575,12 @@ background-color: #293d01;
 }
 
 
-@media screen and (max-width: 3000px) {
+/* @media screen and (max-width: 3000px) {
 
 table{
 
 width: 100%;
-height: 800px;
+
 
 
 
@@ -362,4 +605,4 @@ height: 800px;
 
 
 
-}
+} */
