@@ -1,4 +1,6 @@
 
+/* CSS files add styling rules to your content */
+
 @font-face{
 
   font-family: tag_font;
@@ -105,7 +107,6 @@ outline:none;
 
   background: floralwhite;
   font-family: tag_font;
-  margin: 0;
 
 
   }
@@ -139,7 +140,7 @@ text-align: center;
 
 .Id_formating {
 
-right: 0px;
+left: 80%;
 top: 300px;
 width: 225px;
 height: 125px;
@@ -182,10 +183,10 @@ color: blue;
 
 .dye_plant_id {
 
-width: 80px;
-height: 100px;
+width: 120px;
+height: 150px;
 padding: 10px;
-margin-left: 50px;
+margin-left: 30px;
 background-repeat: no-repeat;
 background-size: 100% 100%;
 
@@ -233,7 +234,7 @@ color: blue;
 left: 100px;
 top: 20%;
 width: 225px;
-height: 125px;
+height: 150px;
 position: absolute;
 
 }
@@ -243,6 +244,145 @@ position: absolute;
 
 background-color: cornflowerblue;
 display: none;
+padding: 10px;
+
+
+}
+
+.food_plant_id {
+
+width: 120px;
+height: 150px;
+padding: 10px;
+margin-left: 30px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+#food_plant_id_name {
+
+  font-family: tag_font;
+  margin: 0;
+  text-align: center;
+}
+
+#food_plants_button{
+
+text-align: center;
+display: inline-block;
+background-color: yellow;
+color: black;
+border: none;
+margin-bottom: 10px;
+font-family: tag_font;
+font-size: 25px;
+color: blue;
+
+
+}
+
+
+#food_plants_button:focus{
+
+  text-align: center;
+  display: inline-block;
+  background-color: white;
+  border: none;
+  outline:none;
+  margin-bottom: 10px;
+  font-family: tag_font;
+  font-size: 25px;
+  color: blue;
+
+}
+
+.Id_formating3 {
+
+left: 80%;
+top: 700px;
+width: 225px;
+height: 125px;
+position: absolute;
+
+}
+
+
+#popdownfood{
+
+background-color: cornflowerblue;
+display: none;
+padding: 10px;
+
+
+}
+
+
+.wood_plant_id {
+
+width: 180px;
+height: 240px;
+padding: 10px;
+margin-left: 15px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+#wood_plant_id_name {
+
+  font-family: tag_font;
+  margin: 0;
+  text-align: center;
+}
+
+#wood_button{
+
+text-align: center;
+display: inline-block;
+background-color: white;
+color: black;
+border: none;
+margin-bottom: 10px;
+font-family: tag_font;
+font-size: 25px;
+color: blue;
+padding: 10px;
+
+
+}
+
+
+#wood_button:focus{
+
+  text-align: center;
+  display: inline-block;
+  background-color: yellow;
+  border: none;
+  outline:none;
+  margin-bottom: 10px;
+  font-family: tag_font;
+  font-size: 25px;
+  color: blue;
+
+}
+
+.Id_formating4 {
+
+left: 100px;
+top: 500px;
+width: 250px;
+height: 275px;
+position: absolute;
+
+}
+
+
+#popdownwood{
+
+background-color: cornflowerblue;
+display: none;
+padding: 10px;
 
 
 }
@@ -399,7 +539,7 @@ height: 50px;
 
 .plum {
 
-background-image: url("images/plumtree.jpg");
+background-image: url("images/plum tree.jpg");
 
 }
 
@@ -423,7 +563,7 @@ background-image: url("images/bark2.jpg");
 
 .spruce {
 
-  background-image: url("images/sprucetree.jpg");
+  background-image: url("images/Spruce tree.jpg");
 
 
 }
@@ -437,7 +577,7 @@ background-image: url("images/bark2.jpg");
 
 .blackberry {
 
-background-image: url("images/blackberry.jpg")
+background-image: url("images/Blackberry (Himalayan and thornless).jpg")
 
 }
 
@@ -558,51 +698,16 @@ background-color: #999900;
 
 .dye > .causeiloveu.dye, .andaheap.dye {
 
-  
 }
 
+.food > .bushel.food, .and_a_peck.food, .and_a_barrel.food, .andaheap.food, .quince.food, .heyo.food, .windand.food, .therain.food, .causeiloveu.food {
 
 
-
-
-  @-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px yellow, 0 0 10px  yellow, 0 0 8px lime, 0 0 3em purple, 0 0 4em purple, 0 0 1em red, 0 0 7em lime;
-  }
-  to {
-    text-shadow: 0 0 10px lime, 0 0 10px lime, 0 0 8 yellow, 0 0 2em forestgreen, 0 0 2em red, 0 0 4em red, 0 0 4em purple;
-  }
 }
 
-
-/* @media screen and (max-width: 3000px) {
-
-table{
-
-width: 100%;
-
-
+.wood > .im_talkin.wood, .inmysleep.wood, .heyo.wood, .windand.wood, .therain.wood {
 
 
 }
 
 
-  .lets table {
-        width: 100%;
-        height: 100%;
-
-  }
-
-  @media screen and (max-width: 600px) {
-
-  .lets{
-       table-layout: fixed;
-        width: 100%;
-
-
-
-  }
-
-
-
-} */
