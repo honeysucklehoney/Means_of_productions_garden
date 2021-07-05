@@ -37,7 +37,7 @@ color: black;
 
 position: absolute;
 right: 0px;
-top:145px;
+/* top:145px; */
 width: 250px;
 border: 1px ;
 border-style: solid;
@@ -709,5 +709,3 @@ background-color: #999900;
 
 
 }
-
-
