@@ -181,10 +181,10 @@ border-color: yellow;
 
 .dye_plant_id {
 
-width: 120px;
-height: 150px;
-background-repeat: no-repeat;
-background-size: 100% 100%;
+  width: 180px;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
 }
 
@@ -247,10 +247,10 @@ display: none;
 
 .food_plant_id {
 
-width: 120px;
-height: 150px;
-background-repeat: no-repeat;
-background-size: 100% 100%;
+  width: 180px;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
 }
 
@@ -315,10 +315,10 @@ display: none;
 
 .wood_plant_id {
 
-width: 180px;
-height: 240px;
-background-repeat: no-repeat;
-background-size: 100% 100%;
+  width: 180px;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
 }
 
