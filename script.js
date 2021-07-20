@@ -118,13 +118,17 @@ function fibre_plants_button() {
 
   if (popdownfibre.style.display === "none") {
     popdownfibre.style.display = "block";
+    popdownfood.style.display = "none";
+    popdownwood.style.display = "none";
+    popdowndye.style.display = "none";
+
+
     $(".fibre").each(function(){
            // Test if the div element is empty
            if($(this).is(":empty")){
-               $(this).css("background", "cornflowerblue");
-               $('.Id_formating2').css("top", "+350px")
-               $('.Id_formating3').css("top", "+350px")
-               $('.Id_formating4').css("top", "+350px")
+               $('.Id_formating2').css("top", "+275px")
+               $('.Id_formating3').css("top", "+275px")
+               $('.Id_formating4').css("top", "+275px")
 
 
            }
@@ -146,9 +150,9 @@ function fibre_plants_button() {
     //...//
     $(".therain.fibre").css("background", "#2b2b00");
 
-    $('.Id_formating2').css("top", "0px")
-    $('.Id_formating3').css("top", "0px")
-    $('.Id_formating4').css("top", "0px")
+    $('.Id_formating2').css("top", "+0px")
+    $('.Id_formating3').css("top", "+0px")
+    $('.Id_formating4').css("top", "+0px")
 
 
 
@@ -164,13 +168,18 @@ function dye_plants_button() {
 
   if (popdowndye.style.display === "none") {
     popdowndye.style.display = "block";
+    popdownfood.style.display = "none";
+    popdownwood.style.display = "none";
+    popdownfibre.style.display = "none";
+
+
     $(".dye").each(function(){
            // Test if the div element is empty
            if($(this).is(":empty")){
                $(this).css("background", "#d8e4fa");
 
-               $('.Id_formating3').css("top", "+250px")
-               $('.Id_formating4').css("top", "+250px")
+               $('.Id_formating3').css("top", "+275px")
+               $('.Id_formating4').css("top", "+275px")
            }
        });
 
@@ -180,8 +189,8 @@ function dye_plants_button() {
     popdowndye.style.display = "none";
     $(".causeiloveu.dye").css("background", "#293d01");
     $(".andaheap.dye").css("background", "#3b5900");
-    $('.Id_formating3').css("top", "0px")
-    $('.Id_formating4').css("top", "0px")
+    $('.Id_formating3').css("top", "+0")
+    $('.Id_formating4').css("top", "+0")
 
 
   }
@@ -193,11 +202,15 @@ function food_plants_button() {
 
   if (popdownfood.style.display === "none") {
     popdownfood.style.display = "block";
+    popdowndye.style.display = "none";
+    popdownwood.style.display = "none";
+    popdownfibre.style.display = "none";
+
     $(".food").each(function(){
            // Test if the div element is empty
            if($(this).is(":empty")){
                $(this).css("background", "#476BC7");
-               $('.Id_formating4').css("top", "+250px")
+               $('.Id_formating4').css("top", "+275px")
 
            }
        });
@@ -216,7 +229,7 @@ function food_plants_button() {
     $(".therain.food").css("background", "#2b2b00");
     $(".causeiloveu.food").css("background", "#293d01");
 
-    $('.Id_formating4').css("top", "0px")
+    $('.Id_formating4').css("top", "+0px")
 
   }
 }
@@ -227,6 +240,12 @@ function wood_button() {
 
   if (popdownwood.style.display === "none") {
     popdownwood.style.display = "block";
+    popdowndye.style.display = "none";
+    popdownfood.style.display = "none";
+    popdownfibre.style.display = "none";
+
+
+
     $(".wood").each(function(){
            // Test if the div element is empty
            if($(this).is(":empty")){
