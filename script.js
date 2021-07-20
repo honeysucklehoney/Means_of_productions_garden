@@ -15,7 +15,7 @@ var bottom_plants = new Array ("tansy", "fireweed", "lupine", "furny stuff");
 var nettle_n_such = new Array ("nettle","organgrapes");
 var nettle_alt = new Array ("nettle2", "nettle3");
 var food = new Array ("Blackberry (Himalayan and thornless)", "Rasberry", "Apple tree", "Plum tree", "Strawberry", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Suncoke", "Creeping buttercup","Plantain","Yellow dock", "Mustard Green", "nootka rose (rosehips)","Mock orange", "quince", "Red currant");
-var wood = new Array ("Cherry_tree", "Apple_tree", "Empress tree", "Green willow", "White ash", "Chestnut", "Bamboo (2 clumping varieties, species unknown)", "Ocean Spray (Iron Wood)")
+var wood = new Array ("Cherry tree", "Apple tree", "Empress tree", "Green willow", "White ash", "Chestnut", "Bamboo", "Ocean Spray (Iron Wood)")
 
 function choosePic() {
 

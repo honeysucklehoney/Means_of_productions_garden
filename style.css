@@ -88,7 +88,7 @@ outline:none;
     border-collapse:collapse;
     background:yellow;
     table-layout: fixed;
-    height: 600px;
+    height: 700px;
     width: 40%;
     margin-left: 30%;
     margin-right: 30%;
@@ -105,8 +105,8 @@ outline:none;
 
 	}
 	#lets td {
-    border: 1px solid yellow;
-    border-style: double;
+    border: 1px solid floralwhite;
+
 	}
 
   body {
