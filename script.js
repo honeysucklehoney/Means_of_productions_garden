@@ -1,5 +1,7 @@
 //prints "hi" in the browser's dev tools console
 console.log("hi");
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
 
 window.onload = choosePic;
 var food_N = new Array("blackberry", "rasberry","blueberry","thimbleberry", "snowberry", " appletree", "plumtree", "cherrytree") ;
@@ -7,7 +9,7 @@ var food_N2 = new Array("rasberry","plumtree",  "blackberry", "blueberry","cherr
 var food_N3 = new Array("plumtree",  "blackberry", "blueberry","cherrytree","snowberry", " appletree","thimbleberry","rasberry") ;
 var food_N4 = new Array( "blueberry","cherrytree","snowberry", " appletree","thimbleberry","rasberry","plumtree",  "blackberry") ;
 var fibre_plants = new Array ("Day lily", "Iris", "milkweed", "phorium tanax", "Golden hops", "green willow", "hazel", "peachleaf willow","bamboo", "Blackberry (Himalayan and thornless)", "Yucca");
-var dye_plants = new Array ("tea bush", "elderberry", "marigold", "lupine", "pokeberry", "madder root", "coreopsis", "Mallow hollyhock", "st. john's wort", "japanese indigo/dyers knotweed", "woad", "blood root", "weld");
+var dye_plants = new Array ("tea bush", "elderberry", "marigold", "lupine", "pokeberry", "madder root", "coreopsis", "Mallow hollyhock", "st.john's wort", "japanese indigo", "woad", "blood root", "weld");
 var fibre_trees= new Array ("black willow", "bamboo", "yellow willow", "elderberry");
 var food_S = new Array ("tanzi","tea bush", "sunchocke", "creeping buttercup", "cumfrey", "elecampane", "yellow dock", "mustard green", "rosehip", "goutweed", "mock orange",);
 var fruit_trees= new Array ("Cherry_tree", "Plum tree", "Apple_tree"); //liberty apple and snow apple have been combined due to lack of imagery//
@@ -16,7 +18,6 @@ var nettle_n_such = new Array ("nettle","organgrapes");
 var nettle_alt = new Array ("nettle2", "nettle3");
 var food = new Array ("Blackberry (Himalayan and thornless)", "Rasberry", "Apple tree", "Plum tree", "Strawberry", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Suncoke", "Creeping buttercup","Plantain","Yellow dock", "Mustard Green", "nootka rose (rosehips)","Mock orange", "quince", "Red currant");
 var wood = new Array ("Cherry tree", "Apple tree", "Empress tree", "Green willow", "White ash", "Chestnut", "Bamboo", "Ocean Spray (Iron Wood)")
-
 function choosePic() {
 
 var randomNum = Math.floor(Math.random() * food.length);
@@ -27,7 +28,7 @@ var randomNum_dye = Math.floor(Math.random() * dye_plants.length);
 var randomNum_fibre = Math.floor(Math.random() * fibre_plants.length);
 var randomNum_food = Math.floor(Math.random() * food.length);
 var randomNum_wood = Math.floor(Math.random() * wood.length);
- //document.getElementById("food_N_img").src = "/images/" + food_N[randomNum] +  ".jpg";
+
 var imageUrl = "images/" + food[randomNum] + ".jpg";
 $('.food_N').css('background-image', 'url("' + imageUrl + '")');
 
@@ -52,24 +53,55 @@ $('.fruit_trees').css('background-image', 'url("' + imageUrl + '")');
 var imageUrl = "images/" + food_S[randomNum] + ".jpg";
 $('.food_S').css('background-image', 'url("' + imageUrl + '")');
 
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
+// 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋//
 
+// ✿ Fibre random imput for pop down and link 4 home page ✿ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
 var imageUrl = "images/" + fibre_plants[randomNum_fibre] + ".jpg";
 $('.fibre_plant_id').css('background-image', 'url("' + imageUrl + '")');
 document.getElementById("fibre_plant_id_name").innerHTML = fibre_plants[randomNum_fibre];
 
+var fibrerandolink = fibre_plants[randomNum_fibre] + ".html";
+document.getElementById("fibrerandolink").href = fibrerandolink;
+
+
+// ✿ Fibre random imput for pop down and link 4 home page ✿ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
 var imageUrldye = "images/" + dye_plants[randomNum_dye] + ".jpg";
 $('.dye_plant_id').css('background-image', 'url("' + imageUrldye + '")');
 document.getElementById("dye_plant_id_name").innerHTML = dye_plants[randomNum_dye];
 
+var dyerandolink = dye_plants[randomNum_dye] + ".html";
+document.getElementById("dyerandolink").href = dyerandolink;
+
+
+// ✿ Fibre random imput for pop down and link 4 home page ✿ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
 var imageUrlfood = "images/" + food[randomNum_food] + ".jpg";
 $('.food_plant_id').css('background-image', 'url("' + imageUrlfood + '")');
 document.getElementById("food_plant_id_name").innerHTML = food[randomNum_food];
 
+var foodrandolink = food[randomNum_food] + ".html";
+document.getElementById("foodrandolink").href = foodrandolink;
+
+// ✿ Fibre random imput for pop down and link 4 home page ✿ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
 var imageUrlwood = "images/" + wood[randomNum_wood] + ".jpg";
 $('.wood_plant_id').css('background-image', 'url("' + imageUrlwood + '")');
 document.getElementById("wood_plant_id_name").innerHTML = wood[randomNum_wood];
 
+var woodrandolink = wood[randomNum_wood] + ".html";
+document.getElementById("woodrandolink").href = woodrandolink;
 }
+
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
+// 💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~  💗 ~ ~ ~ //
+
 
 function myFunction() {
   var dots = document.getElementById("lets");
@@ -265,3 +297,83 @@ function wood_button() {
 
   }
 }
+
+
+function care() {
+  var care = document.getElementById("careinfo");
+  if (care.style.display === "none") {
+    care.style.display = "block";
+  } else {
+    care.style.display = "none";
+  }
+}
+
+function harvest() {
+  var harvest = document.getElementById("harvestinfo");
+  if (harvest.style.display === "none") {
+    harvest.style.display = "block";
+  } else {
+    harvest.style.display = "none";
+  }
+}
+
+function orgins() {
+  var orgins = document.getElementById("orginsinfo");
+  if (orgins.style.display === "none") {
+    orgins.style.display = "block";
+  } else {
+    orgins.style.display = "none";
+  }
+}
+function uses() {
+  var uses = document.getElementById("usesinfo");
+  if (uses.style.display === "none") {
+    uses.style.display = "block";
+  } else {
+    uses.style.display = "none";
+  }
+}
+function idinfo() {
+  var idinfo = document.getElementById("idinfo");
+  if (idinfo.style.display === "none") {
+    idinfo.style.display = "block";
+  } else {
+    idinfo.style.display = "none";
+  }
+}
+function stories() {
+  var stories = document.getElementById("storiesinfo");
+  if (stories.style.display === "none") {
+    stories.style.display = "block";
+  } else {
+    stories.style.display = "none";
+  }
+}
+
+function letsgo(){
+
+var all_plants = new Array ("tea bush", "elderberry", "marigold", "lupine", "pokeberry", "madder root", "coreopsis", "Mallow hollyhock", "st. john's wort", "japanese indigo/dyers knotweed", "woad", "blood root", "weld","Day lily", "Iris", "milkweed", "phorium tanax", "Golden hops", "green willow", "hazel", "peachleaf willow","bamboo", "Blackberry (Himalayan and thornless)", "Yucca","Blackberry (Himalayan and thornless)", "Rasberry", "Apple tree", "Plum tree", "Strawberry", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Suncoke", "Creeping buttercup","Plantain","Yellow dock", "Mustard Green", "nootka rose (rosehips)","Mock orange", "quince", "Red currant", "Cherry tree", "Apple tree", "Empress tree", "Green willow", "White ash", "Chestnut", "Bamboo", "Ocean Spray (Iron Wood)");
+var randomNum_all_plants = Math.floor(Math.random() * all_plants.length);
+
+
+var letsgo = all_plants[randomNum_all_plants] + ".html";
+document.getElementById("letsgogo").href = letsgo;
+
+}
+
+
+
+
+
+
+
+
+// window.onscroll = function() {scrollFunction()};
+//
+// function scrollFunction() {
+//   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+//     document.getElementById("frame_test").style.width = "100%";
+//     document.getElementById("info").style.display = "none !important";
+//   } else {
+//     document.getElementById("frame_test").style.width = "650px";  }
+// }
