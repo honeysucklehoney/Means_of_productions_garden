@@ -32,7 +32,7 @@ border-color: yellow;
 /* border-radius: 100px; */
 padding: 30px;
 background-color: white;
-font-size: 12px;
+font-size: 14px;
 color: black;
 float: left;
 margin-left: 0px;
@@ -55,6 +55,12 @@ background-color: white;
 font-size: 12px;
 float: left;
 margin-top: 0px;
+}
+
+.hellohellohello {
+
+font-size: 18px;
+
 }
 
 
@@ -90,12 +96,18 @@ outline:none;
 }
 
 
+.earthand {
+
+text-decoration: underline;
+
+}
+
 	#lets {
     border-collapse:collapse;
     background:yellow;
     table-layout: fixed;
-    height: 700px;
-    width: 40%;
+    height: 900px;
+    width: 50%;
     margin-left: 30%;
     margin-right: 30%;
     position: absolute;
@@ -106,6 +118,8 @@ outline:none;
 	#lets caption {
 		caption-side:bottom;
 		text-align:left;
+    font-size: 12px;
+    padding: 10px;
 	}
 	#lets th {
 		background:#00292E;
@@ -139,8 +153,8 @@ display: none;
 
 .fibre_plant_id {
 
-width: 180px;
-height: 240px;
+  width: 120px;
+  height: 150px;
 background-repeat: no-repeat;
 background-size: 100% 100%;
 }
@@ -155,11 +169,11 @@ margin: 0;
 
 .Id_formating {
 
-margin-left: 75%;
+margin-left: 85%;
 width: 225px;
 height: 125px;
 position: absolute;
-top: 0px;
+top: 10px;
 
 }
 
@@ -182,20 +196,13 @@ border-color: yellow;
 }
 
 
-#fibre_plants_button:focus{
-
-
-  outline: none;
-
-
-}
 
 
 
 .dye_plant_id {
 
-  width: 180px;
-  height: 240px;
+  width: 120px;
+  height: 150px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -225,23 +232,11 @@ border-color: yellow;
 }
 
 
-#dye_plants_button:focus{
-
-  text-align: center;
-  display: inline-block;
-  background-color: lightyellow;
-  border: none;
-  outline:none;
-  margin-bottom: 10px;
-  font-family: tag_font;
-  font-size: 25px;
-
-}
 
 .Id_formating2 {
 
-  margin-left: 75%;
-  margin-top: 50px;
+  margin-left: 85%;
+  margin-top: 225px;
   width: 225px;
   height: 125px;
   position: absolute;
@@ -260,8 +255,8 @@ display: none;
 
 .food_plant_id {
 
-  width: 180px;
-  height: 240px;
+  width: 120px;
+  height: 150px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -291,25 +286,14 @@ border-color: yellow;
 }
 
 
-#food_plants_button:focus{
 
-  text-align: center;
-  display: inline-block;
-  background-color: lightyellow;
-  border: none;
-  outline:none;
-  margin-bottom: 10px;
-  font-family: tag_font;
-  font-size: 25px;
-
-}
 
 
 
 .Id_formating3 {
 
-  margin-left: 75%;
-  margin-top: 100px;
+  margin-left: 85%;
+  margin-top: 475px;
   width: 225px;
   height: 125px;
   position: absolute;
@@ -328,8 +312,8 @@ display: none;
 
 .wood_plant_id {
 
-  width: 180px;
-  height: 240px;
+  width: 120px;
+  height: 150px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -359,24 +343,11 @@ border-color: yellow;
 }
 
 
-#wood_button:focus{
-
-  text-align: center;
-  display: inline-block;
-  background-color: yellow;
-  border: none;
-  outline:none;
-  margin-bottom: 10px;
-  font-family: tag_font;
-  font-size: 25px;
-  color: blue;
-
-}
 
 .Id_formating4 {
 
-  margin-left: 75%;
-  margin-top: 150px;
+  margin-left: 85%;
+  margin-top: 725px;
   width: 225px;
   height: 125px;
   position: absolute;
@@ -391,141 +362,6 @@ border-color: yellow;
 display: none;
 
 }
-
-
-
- /* #letslarger {
-  border-collapse:collapse;
-  background:yellow;
-  table-layout: fixed;
-  width: 100%;
-  height: 1500px;
-  display: none;
-
-}
-
-#letslarger th {
-  background:#00292E;
-
-}
-#letslarger td {
-  border: 1px solid yellow;
-  border-style: double;
-}
- */
-
-
-
-
-h1 {
-  font-style: italic;
-  color: #373fff;
-}
-
-.bg_img  {
-
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center; /* Center the image */
-} 
-
-
-
-/* .row1 {
-
-  height: 50px;
-
-
-}
-
-.row3 {
-
-  height: 70px;
-
-
-}
-
-.row7 {
-
-  height: 50px;
-
-}
-
-.row11 {
-
-  height: 50px;
-}
-
-.row19{
-
-height: 50px;
-
-}
-
-.row21{
-
-height:25px;
-
-}
-
-.row22{
-
-  height:50px;
-}
-
-.row26 {
-
-height: 50px;
-
-}
-
-.row28 {
-
-height: 25px;
-
-}
-
-.row35 {
-
-height: 25px;
-
-}
-
-.row31{
-
-height: 25px;
-
-}
-
-.row33 {
-
-height: 25px;
-
-}
-
-.row37 {
-
-  height: 25px;
-
-}
-
-.row39 {
-
-  height: 25px;
-
-}
-
-.row42 {
-
-height: 25px;
-
-}
-
-.row43 {
-
-height: 50px;
-
-} */
 
 
 
@@ -545,52 +381,108 @@ height: 50px;
 
 .plum {
 
-background-image: url("images/plum tree.jpg");
+/* background-image: url("images/plum tree.jpg"); */
+background-color: lightyellow;
+
+}
+
+.food_N4 {
+
+  background-color: lightyellow;
+
+
+}
+
+.food_N3 {
+
+  background-color: lightyellow;
+
+
+}
+
+.food_N2 {
+
+  background-color: lightyellow;
+
+
+}
+
+.food_N {
+
+  background-color: lightyellow;
+
+
+}
+
+.nettle_n_such {
+
+  background-color: lightyellow;
+
+
+}
+
+.nettle_alt {
+
+background-color: lightyellow;
+
+
+}
+
+.fruit_trees {
+
+background-color: lightyellow;
 
 }
 
 .bark {
 
-background-image: url("images/bark.jpg");
+/* background-image: url("images/bark.jpg"); */
+background-color: lightyellow;
 
 }
 
 .bark_alt {
 
-background-image: url("images/bark2.jpg");
+/* background-image: url("images/bark2.jpg"); */
+background-color: lightyellow;
 
 }
 
 .nettlenettlenettle{
 
-  background-image: url("images/nettle2.jpg");
+  /* background-image: url("images/nettle2.jpg"); */
+  background-color: lightyellow;
 
 }
 
 .spruce {
 
-  background-image: url("images/Spruce tree.jpg");
+  /* background-image: url("images/Spruce tree.jpg"); */
+  background-color: lightyellow;
 
 
 }
 
 .paulownia {
 
-  background-image: url("images/paulowniatree.jpg");
+  /* background-image: url("images/paulowniatree.jpg"); */
+  background-color: lightyellow;
 
 
 }
 
 .blackberry {
 
-background-image: url("images/Blackberry (Himalayan and thornless).jpg")
+/* background-image: url("images/Blackberry (Himalayan and thornless).jpg") */
+background-color: lightyellow;
 
 }
 
 
 .willow {
 
-  background-image: url("images/willow3.jpg")
+  /* background-image: url("images/willow3.jpg") */
+  background-color: lightyellow;
 
 
 }
@@ -685,36 +577,6 @@ background-color: #999900;
 }
 
 
-
-.food_N {
-
-
-  color: transparent;
-  font-family: arial;
- -webkit-animation: glow 5s ease-in-out infinite alternate;
-  -moz-animation: glow 5s ease-in-out infinite alternate;
-  animation: glow 9s ease-in-out infinite alternate;
-  font-size: 0.4em;
-}
-
-.fibre > .about_you.fibre, .andaheap.fibre, .causeiloveu.fibre, .im_talkin.fibre, .about_you.fibre .therain.fibre, .inmysleep.fibre, .heyo.fibre, .and_a_peck.fibre{
-
-
-}
-
-.dye > .causeiloveu.dye, .andaheap.dye {
-
-}
-
-.food > .bushel.food, .and_a_peck.food, .and_a_barrel.food, .andaheap.food, .quince.food, .heyo.food, .windand.food, .therain.food, .causeiloveu.food {
-
-
-}
-
-.wood > .im_talkin.wood, .inmysleep.wood, .heyo.wood, .windand.wood, .therain.wood {
-
-
-}
 
 #frame_test {
 
@@ -891,7 +753,6 @@ h2 {
 
   font-size: 20px;
   font-family: tag_font;
-  /* text-decoration: underline; */
   padding: 10px;
 }
 
@@ -899,6 +760,33 @@ h2 {
 
 padding: 10px;
 font-size: 15px;
+
+}
+
+.finderlist {
+
+background-color: lightyellow;
+font-size: 15px;
+color: black;
+margin-left: 20px;
+margin-bottom: 20px;
+width: 30%;
+padding-left: 20px;
+padding-bottom: 20px;
+font-family: tag_font;
+border: 2px solid yellow;
+}
+
+.finderheading {
+
+  padding:  0px;
+}
+
+
+.infoblock: target {
+
+display: block;
+
 
 }
 
