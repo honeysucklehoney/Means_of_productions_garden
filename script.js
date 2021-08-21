@@ -109,7 +109,7 @@ function myFunction() {
   var btnText = document.getElementById("expandbutton");
 
   if (dots.style.width === "100%") {
-    dots.style.width = "40%";
+    dots.style.width = "50%";
     dots.style.height = "800px";
     btnText.innerHTML = "Open map";
     dots.style.margin = "30%";
