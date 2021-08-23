@@ -111,7 +111,7 @@ function myFunction() {
   if (dots.style.width === "100%") {
     dots.style.width = "50%";
     dots.style.height = "800px";
-    btnText.innerHTML = "Open map";
+    btnText.innerHTML = "Open Map";
     dots.style.margin = "30%";
     dots.style.marginTop = "0px";
   $('.Id_formating').css("display", "block")
