@@ -669,8 +669,8 @@ background-size: contain; */
 
 .icons img {
 
-height: 75px;
-width: 75px;
+height: 50px;
+width: 50px;
 
 }
 
@@ -744,7 +744,7 @@ background-color: white  ;
 font-family: tag_font;
 font-size: 15px;
 width: 300px;
-height: 400px;
+height: 450px;
 box-shadow: 5px 5px 15px yellow;
 border: 1px solid black;
 }
@@ -759,7 +759,7 @@ h2 {
 .textblock {
 
 padding: 10px;
-font-size: 15px;
+font-size: 14px;
 
 }
 

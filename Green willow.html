@@ -25,20 +25,31 @@
 
   <!-- ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ ✿ -->
 
-<body ID="frame_test" style="background-image:url(images/willow2.jpg); height:1800px;">
+<body ID="frame_test" style="background-image:url(images/Willow2.jpg); height:1800px;">
   <div ID="info">
       <div class="righthandline">
 
 <!-- CARE INFO 💌 -->
 
-        <button class="icons" onclick="care()"><p> Care<p> </button>
+        <button class="icons" onclick="showhide('careinfo')"><p> Care<p> </button>
         <div id="careinfo" class="infoblock" style="display:none">
 
 <img src="images/care.png" style="width: 100px; height: 100px; border:1px solid black; float: right">
 
 <h2> Care & Maitnence </h2>
 
-<p class="textblock"> info on the care and maintnece of weld. </p>
+<p class="textblock">
+Spring-time:<br>
+Mulch
+<br><br>
+May, June, July, August:<br>
+Watch for inset burrowing. <br>
+Trim diseased stalks. <br>
+Remove invested clippings from site.
+<br><br>
+November, December, January: <br>
+Prune in dormancy.
+ </p>
 
 
         </div>
@@ -49,62 +60,71 @@
 
 <!-- HARVEST INFO 💌 -->
 
-        <button class="icons" onclick="harvest()"><p> Harvest<p> </button>
+        <button class="icons" onclick="showhide('harvestinfo')"><p> Harvest<p> </button>
 
         <div id="harvestinfo" class="infoblock" style="display:none">
           <img src="images/harvest.png" style="width: 100px; height: 100px; border:1px solid black; float: right">
 
           <h2> Harvest </h2>
 
-          <p class="textblock"> info on the care and maintnece of weld. </p>        </div>
+          <p class="textblock">
+            December,January:<br>
+            when dormant clippings can be harvested for basketry.
+<br><br>
+            Mid-spring:<br>
+            harvest the bark of spring pruning clippings for weaving.
+
+           </p>        </div>
 
 <!-- End of harvest info  -->
 <br>
 <!-- USES INFO 💌 -->
 
-      <button class="icons" onclick="uses()"><p> Uses<p> </button>
+      <button class="icons" onclick="showhide('usesinfo')"><p> Uses<p> </button>
 
         <div id="usesinfo"  class="infoblock" style="display:none">
           <img src="images/uses.png" style="width: 100px; height: 100px; border:1px solid black; float: right">
 
           <h2> Uses </h2>
 
-          <p class="textblock"> info on the care and maintnece of weld. </p>        </div>
+          <p class="textblock">
+          Basketry:
+          Willow whips (young tree growth) and bark from spring clippings. </p>        </div>
 <!-- End of uses info -->
 <br>
 <!-- IDENTIFICATION DESCRIPTION 💌 -->
 
-        <button class="icons" onclick="idinfo()"><p> ID<p> </button>
+        <button class="icons" onclick="showhide('idinfo')"><p> ID<p> </button>
 
         <div id="idinfo" class="infoblock" style="display:none">
           <img src="images/id.png" style="width: 100px; height: 100px; border:1px solid black; float: right">
 
           <h2> Plant Identification </h2>
 
-          <p class="textblock"> info on the care and maintnece of weld. </p>        </div>
+          <p class="textblock"> <a href="http://beta.floranorthamerica.org/Salix_triandra" style="text-decoration: underline;"> Hyperlink to information on identifying green willow. </a> </p>        </div>
 <!-- End of Plant identification -->
 <br>
 <!-- ORGINS 💌 -->
 
-        <button class="icons" onclick="orgins()"><p> Orgins<p> </button>
+        <button class="icons" onclick="showhide('orginsinfo')"><p> Orgins<p> </button>
         <div id="orginsinfo" class="infoblock" style="display:none">
           <img src="images/orgins.png" style="width: 100px; height: 100px; border:1px solid black; float: right">
 
           <h2> Orgins </h2>
 
-          <p class="textblock"> info on the care and maintnece of weld. </p>        </div>
+          <p class="textblock"> Europe and Western and Central Asia. </p>        </div>
 <!-- End of orgins -->
 <br>
 <!-- STORIES 💌 -->
 
-        <button class="icons" onclick="stories()"><p> Stories<p> </button>
+        <button class="icons" onclick="showhide('storiesinfo')"><p> Stories<p> </button>
 
         <div id="storiesinfo" class="infoblock" style="display:none">
           <img src="images/stories.png" style="width: 100px; height: 100px; border:1px solid black; float: right">
 
           <h2> Stories </h2>
 
-          <p class="textblock"> info on the care and maintnece of weld. </p>        </div>
+          <p class="textblock"> Share your stories with green willow with earthandmapping(at)gmail.com. </p>        </div>
       </div>
 <!-- End of stories -->
 
@@ -112,7 +132,7 @@
       <div class= "column_layout" class="infoblock">
 
 <!-- PLANT NAME AND LATIN -->
-          <h1> Willow </h1>
+          <h1> Green willow, black maul willow ( Salix triandra) </h1>
       </div>
 
 <!-- EXIT PAGE BUTTONS -->
