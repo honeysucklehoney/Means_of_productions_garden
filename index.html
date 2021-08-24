@@ -35,64 +35,56 @@
   <title>Means of Production Garden</title>
 
   </head>
-  <body>
+  <body class="index">
+    <button class="iconshome" onclick="showhide('careinfo'); fibre_plants_button()" id="fibre_plants_button" ><p> Fibre<p> </button>
+    <div id="careinfo" class="infoblockhome" style="display:none">
+
+      <a href="index.html" id="fibrerandolink">
+        <div class="fibre_plant_id">
+        </div>
+        <p id="fibre_plant_id_name"> loading </p>
+      </a>
+
+    </div>
+
+<br>
 
 
-  <button onclick="myFunction()" id="expandbutton">  Open Map </button>
+    <button class="iconshome" onclick="showhide('harvestinfo'); dye_plants_button()" id="dye_plants_button"><p> Dye<p> </button>
+
+    <div id="harvestinfo" class="infoblockhome" style="display:none">
+      <a href="index.html" id="dyerandolink">
+        <div class="dye_plant_id">
+        </div>
+        <p id="dye_plant_id_name"> loading </p>
+    </a>
+    </div>
+
+<br>
+<!-- USES INFO 💌 -->
+
+  <button class="iconshome" onclick="showhide('usesinfo'); food_plants_button()" id="food_plants_button"><p> Food<p> </button>
+    <div id="usesinfo" class="infoblockhome" style="display:none">
+    <a href="index.html" id="foodrandolink">
+      <div class="food_plant_id">
+      </div>
+      <p id="food_plant_id_name"> loading </p>
+    </a>
+    </div>
+
+<br>
 
 
+    <button class="iconshome" onclick="showhide('idinfo');wood_plants_button()" id="wood_plants_button"><p> Wood<p> </button>
+      <div id="idinfo" class="infoblockhome" style="display:none">
+      <a href="index.html" id="woodrandolink">
+        <div class="wood_plant_id">
+        </div>
+        <p id="wood_plant_id_name"> loading </p>
+      </a>
+      </div>
 
- <div class="Id_formating">
-
- <button onclick="fibre_plants_button()" id="fibre_plants_button"> Fiber Plants  </button>
- <br>
- <a href="index.html" id="fibrerandolink">
-  <div id="popdownfibre">
-   <div class="fibre_plant_id">
-   </div>
-   <p id="fibre_plant_id_name"> loading </p>
- </div>
- </a>
- </div>
-
-   <div class="Id_formating2">
-
-   <button onclick="dye_plants_button()" id="dye_plants_button"> Dye plants </button>
-   <br>
-   <a href="index.html" id="dyerandolink">
-     <div id="popdowndye">
-     <div class="dye_plant_id">
-     </div>
-     <p id="dye_plant_id_name"> loading </p>
-   </div>
- </a>
- </div>
-
- <div class="Id_formating3">
-
- <button onclick="food_plants_button()" id="food_plants_button"> Food </button>
- <br>
- <a href="index.html" id="foodrandolink">
-   <div id="popdownfood">
-   <div class="food_plant_id">
-   </div>
-   <p id="food_plant_id_name"> loading </p>
- </div>
- </a>
- </div>
-
- <div class="Id_formating4">
-
- <button onclick="wood_button()" id="wood_button"> Wood </button>
- <br>
- <a href="index.html" id="woodrandolink">
-   <div id="popdownwood">
-   <div class="wood_plant_id">
-   </div>
-   <p id="wood_plant_id_name"> loading </p>
- </div>
- </a>
- </div>
+<br>
 
 
 <table id="lets">
@@ -3449,25 +3441,9 @@
     <td class="a_hug"></td>
 	</tr>
 
-  <p class="explain">
 
-    <span class="hellohellohello"> Welcome to the digital Means of Production Garden. </span> <br>The garden itself is located on the unceded traditional territories of the Sḵwx̱wú7mesh (Squamish), Səl̓ílwətaʔ/Selilwitulh (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations at East 6th Street and St. Catherines Street in so-called Vancouver, Canada.
-  </br>
-  <br></br>
-    <br>Like a walk through the garden itself, this digital experience is intended to change with every visit, with new plants to discover each time. Plantings are grouped into four different categories referring to traditional human relationships and uses of the plants found on site. With each visit, one plant from each traditional use is presented. I invite you to click around, scroll and refresh.
-</br>
-</p>
-
-  <p class="explain">
-
-    This 1 year project could not possibly hold all of the information about a rich and complex planted 20 year garden. Information that is offered is often vague on purpose, in part to not deny the visitor the learning journey of personal discovery vs overload of information. Also, past challenges of plant theft and vandalism in this public urban space from oversharing leads the core stewards to be cautious in what information is publicly accessible with ease online.
-    Like a true garden, do not expect perfection in the pages that follow, but rather enjoy the whimsy - the flourishes of activity and evidence of energy output in certain areas- and know like any garden this website can truly never be ‘done’.
-<br>
-<br>
-The language this site relies upon is English and Latin for plant names. We are just beginning the process of decolonizing our tongues in how we address and label the plants, and hope this part of the project can grow in the years to come. If you have plant knowledge related to names you would like to see updated and included, please reach out to earthandmapping(at)gmail.com.
-
-  </p>
-
+  <button class="leave" > <a href="finder.html">~Jump to index~</a></button>
+  <button class="leave" > <a href="index.html">~Back to entrence~</a></button>
 
 
 

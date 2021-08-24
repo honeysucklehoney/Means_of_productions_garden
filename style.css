@@ -22,10 +22,42 @@ color: black;
 
 }
 
+html{
+
+background: black;
+}
+
+.index {
+
+background-image: url("images/pathway5.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height: 2000px;
+
+}
+
+.entermap {
+
+background-color: white;
+border: 1px ;
+padding-left: 20px;
+padding-right: 20px;
+width: 200px;
+margin-top: 50px;
+margin-left: 45%;
+margin-right: 45%;
+border-style: solid;
+border-color: yellow;
+font-family: bluunext;
+color:black;
+font-size: 20px;
+box-shadow: 5px 5px 15px yellow;
+
+}
+
 .explain {
 
-position:relative;
-width: 21.6%;
+width: 50%;
 border: 1px ;
 border-style: solid;
 border-color: yellow;
@@ -35,15 +67,16 @@ background-color: white;
 font-size: 14px;
 color: black;
 float: left;
-margin-left: 0px;
-margin-right: 90%;
+margin-left: 25%;
 margin-top: 20px;
 margin-bottom: 0px;
+box-shadow: 5px 5px 15px yellow;
+border: 1px solid black;
 
 
 }
 
-.explain_pt2 {
+/* .explain_pt2 {
 
 position: relative;
 width: 21.6%;
@@ -55,7 +88,7 @@ background-color: white;
 font-size: 12px;
 float: left;
 margin-top: 0px;
-}
+} */
 
 .hellohellohello {
 
@@ -85,6 +118,8 @@ margin: 30px;
   padding-left: 20px;
   margin-right: 90%;
   float: left;
+  box-shadow: 5px 5px 15px yellow;
+  border: 1px solid black;
 
 
 }
@@ -96,6 +131,63 @@ outline:none;
 }
 
 
+.infoblockhome {
+
+position: absolute;
+left: 15%;
+top: 175px;
+background-color: white  ;
+font-family: tag_font;
+font-size: 15px;
+width: 300px;
+height: 443px;
+box-shadow: 5px 5px 15px yellow;
+border: 1px solid black;
+}
+
+.iconshome {
+
+height: 100px;
+width: 100px;
+border: 1px;
+border-color: black;
+border-style: solid;
+position: relative;
+/* margin-left:  460px; */
+margin-top: 10px;
+margin-bottom: 93px;
+margin-left:50px;
+font-size: 20px;
+padding: 5px;
+text-align: center;
+
+background-color: white;
+font-family: tag_font;
+/* box-shadow: 5px 5px 15px black; */
+box-shadow: 5px 5px 15px yellow;
+/* background-image: url("images/care.png");
+background-repeat: no-repeat;
+background-size: contain; */
+
+}
+
+.leave {
+
+background-color: white;
+border: 1px ;
+padding-left: 20px;
+padding-right: 20px;
+border-style: solid;
+border-color: yellow;
+margin-top: 1000px;
+margin-left: 25%;
+font-family: bluunext;
+color:black;
+font-size: 20px;
+box-shadow: 5px 5px 15px yellow;
+
+}
+
 .earthand {
 
 text-decoration: underline;
@@ -106,12 +198,13 @@ text-decoration: underline;
     border-collapse:collapse;
     background:yellow;
     table-layout: fixed;
-    height: 900px;
-    width: 50%;
-    margin-left: 30%;
+    height: 709px;
+    width: 600px;
+    margin-left: 40%;
     margin-right: 30%;
     position: absolute;
-    transition: 2s;
+    top: 18px;
+
 
 
 	}
@@ -119,7 +212,10 @@ text-decoration: underline;
 		caption-side:bottom;
 		text-align:left;
     font-size: 12px;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    background: floralwhite;
+
 	}
 	#lets th {
 		background:#00292E;
@@ -137,232 +233,77 @@ text-decoration: underline;
 
   body {
 
-  background: ghostwhite;
-;
+  background: black;
   font-family: tag_font;
 
 
   }
 
-#popdownfibre{
-
-display: none;
-
-
-}
-
 .fibre_plant_id {
 
-  width: 120px;
-  height: 150px;
+  width: 300px;
+  height: 400px;
 background-repeat: no-repeat;
 background-size: 100% 100%;
 }
 
 #fibre_plant_id_name {
 
-font-size: 14px;
+font-size: 16px;
 font-family: tag_font;
-margin: 0;
+margin: 10px;
 
 }
-
-.Id_formating {
-
-margin-left: 85%;
-width: 225px;
-height: 125px;
-position: absolute;
-top: 10px;
-
-}
-
-#fibre_plants_button{
-
-text-align: center;
-display: inline-block;
-font-size: 25px;
-background-color: lightyellow;
-background-size: 100%, 100%;
-border: none;
-outline: none;
-margin-bottom: 10px;
-font-family: tag_font;
-color: black;
-border: 2px;
-border-style: inset;
-border-color: yellow;
-
-}
-
-
-
 
 
 .dye_plant_id {
 
-  width: 120px;
-  height: 150px;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  width: 300px;
+  height: 400px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
 
 }
 
 #dye_plant_id_name {
 
+  font-size: 16px;
   font-family: tag_font;
-}
-
-#dye_plants_button{
-
-text-align: center;
-display: inline-block;
-background-color: lightyellow;
-color: black;
-border: none;
-margin-bottom: 10px;
-font-family: tag_font;
-font-size: 25px;
-color: black;
-border: 2px;
-border-style: inset;
-border-color: yellow;
+  margin: 10px;}
 
 
-}
-
-
-
-.Id_formating2 {
-
-  margin-left: 85%;
-  margin-top: 225px;
-  width: 225px;
-  height: 125px;
-  position: absolute;
-  top: 0px;
-
-
-}
-
-
-#popdowndye{
-
-display: none;
-
-
-}
 
 .food_plant_id {
 
-  width: 120px;
-  height: 150px;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-
+width: 300px;
+height: 400px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }
 
 #food_plant_id_name {
 
+  font-size: 16px;
   font-family: tag_font;
-}
-
-#food_plants_button{
-
-text-align: center;
-display: inline-block;
-background-color: lightyellow;
-color: black;
-border: none;
-margin-bottom: 10px;
-font-family: tag_font;
-font-size: 25px;
-color: black;
-border: 2px;
-border-style: inset;
-border-color: yellow;
-
-
-}
-
-
-
-
-
-
-.Id_formating3 {
-
-  margin-left: 85%;
-  margin-top: 475px;
-  width: 225px;
-  height: 125px;
-  position: absolute;
-  top: 0px;
-
-
-}
-
-
-#popdownfood{
-
-display: none;
-
+  margin: 10px;
 }
 
 
 .wood_plant_id {
 
-  width: 120px;
-  height: 150px;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  width: 300px;
+  height: 400px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
 
 }
 
 #wood_plant_id_name {
 
+  font-size: 16px;
   font-family: tag_font;
+  margin: 10px;
 }
-
-#wood_button{
-
-text-align: center;
-display: inline-block;
-background-color: lightyellow;
-color: black;
-border: none;
-margin-bottom: 10px;
-font-family: tag_font;
-font-size: 25px;
-color: black;
-border: 2px;
-border-style: inset;
-border-color: yellow;
-
-
-}
-
-
-
-.Id_formating4 {
-
-  margin-left: 85%;
-  margin-top: 725px;
-  width: 225px;
-  height: 125px;
-  position: absolute;
-  top: 0px;
-
-
-}
-
-
-#popdownwood{
-
-display: none;
-
-}
-
 
 
   .quince {
@@ -766,7 +707,7 @@ font-size: 14px;
 
 .finderlist {
 
-background-color: lightyellow;
+background-color: floralwhite;
 font-size: 15px;
 color: black;
 margin-left: 20px;
@@ -801,5 +742,5 @@ box-shadow: 5px 5px 15px yellow; */
 span{
 
   font-size: 12px;
-  
+
 }
