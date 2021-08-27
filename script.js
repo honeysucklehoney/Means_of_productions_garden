@@ -153,19 +153,41 @@ function myFunction() {
   }
 }
 
+// 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄
+
 function fibre_plants_button() {
   var popdownfibre = document.getElementById("popdownfibre");
   // var fibrehighlight = document.getElementsByClassName("fibre")[0];
   // var moreText = document.getElementById("letslarger");
 
-  if (popdownfibre.style.display === "none") {
-    popdownfibre.style.display = "block";
+  if (careinfo.style.display === "block") {
 
 
     $(".fibre").each(function(){
            // Test if the div element is empty
            if($(this).is(":empty")){
              $(this).css("background", "#1d62e2");
+             // 🍄 🍄 dye 🍄 🍄
+
+             $(".causeiloveu.dye").css("background", "#293d01");
+             $(".andaheap.dye").css("background", "#3b5900");
+             // 🍄 🍄 food 🍄 🍄
+
+             $(".bushel.food").css("background", "#4d4d00");
+             $(".and_a_peck.food").css("background", "#304701");
+             $(".and_a_barrel.food").css("background", "#698000");
+             $(".andaheap.food").css("background", "#3b5900");
+             $(".quince.food").css("background", "#00292E");
+             $(".heyo.food").css("background", "#4d4d00");
+             $(".windand.food").css("background", "#999900");
+             $(".therain.food").css("background", "#2b2b00");
+             $(".causeiloveu.food").css("background", "#293d01");
+             // 🍄 🍄 wood 🍄 🍄
+             $(".im_talkin.wood").css("background", "#1b2603");
+             $(".inmysleep.wood").css("background", "#baba02");
+             $(".heyo.wood").css("background", "#4d4d00");
+             $(".windand.wood").css("background", "#999900");
+             $(".therain.wood").css("background", "#2b2b00");
 
 
 
@@ -173,8 +195,7 @@ function fibre_plants_button() {
        });
   }
   else {
-    popdownfibre.style.display = "none";
-
+    // 🍄 🍄 fibre 🍄 🍄
     $(".and_a_peck.fibre").css("background", "#304701");
     //..//
     $(".about_you.fibre").css("background", "#a8ba02");
@@ -189,62 +210,115 @@ function fibre_plants_button() {
     $(".therain.fibre").css("background", "#2b2b00");
 
 
-
-
-
-
   }
 }
 
+// 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄
+
+
 function dye_plants_button() {
   var popdowndye = document.getElementById("popdowndye");
+  // var fibrehighlight = document.getElementsByClassName("fibre")[0];
   // var moreText = document.getElementById("letslarger");
 
-  if (popdowndye.style.display === "none") {
-    popdowndye.style.display = "block";
-
+  if (harvestinfo.style.display === "block") {
 
 
     $(".dye").each(function(){
            // Test if the div element is empty
            if($(this).is(":empty")){
-               $(this).css("background", "#d8e4fa");
+             $(this).css("background", "#d8e4fa");
+             // 🍄 🍄 food 🍄 🍄
+
+             $(".bushel.food").css("background", "#4d4d00");
+             $(".and_a_peck.food").css("background", "#304701");
+             $(".and_a_barrel.food").css("background", "#698000");
+             $(".andaheap.food").css("background", "#3b5900");
+             $(".quince.food").css("background", "#00292E");
+             $(".heyo.food").css("background", "#4d4d00");
+             $(".windand.food").css("background", "#999900");
+             $(".therain.food").css("background", "#2b2b00");
+             $(".causeiloveu.food").css("background", "#293d01");
+             // 🍄 🍄 wood 🍄 🍄
+             $(".im_talkin.wood").css("background", "#1b2603");
+             $(".inmysleep.wood").css("background", "#baba02");
+             $(".heyo.wood").css("background", "#4d4d00");
+             $(".windand.wood").css("background", "#999900");
+             $(".therain.wood").css("background", "#2b2b00");
+             // 🍄 🍄 fibre 🍄 🍄
+             $(".and_a_peck.fibre").css("background", "#304701");
+             //..//
+             $(".about_you.fibre").css("background", "#a8ba02");
+             $(".causeiloveu.fibre").css("background", "#293d01");
+             //... //
+             $(".andaheap.fibre").css("background", "#3b5900");
+             $(".im_talkin.fibre").css("background", "#1b2603");
+             $(".inmysleep.fibre").css("background", "#baba02");
+             //...//
+             $(".heyo.fibre").css("background", "#4d4d00");
+             //...//
+             $(".therain.fibre").css("background", "#2b2b00");
+
+
+
 
            }
        });
-
   }
-
   else {
-    popdowndye.style.display = "none";
+
+    // 🍄 🍄 dye 🍄 🍄
+
     $(".causeiloveu.dye").css("background", "#293d01");
     $(".andaheap.dye").css("background", "#3b5900");
-
-
-
   }
 }
 
+// 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄
+
+
 function food_plants_button() {
   var popdownfood = document.getElementById("popdownfood");
+  // var fibrehighlight = document.getElementsByClassName("fibre")[0];
   // var moreText = document.getElementById("letslarger");
 
-  if (popdownfood.style.display === "none") {
-    popdownfood.style.display = "block";
+  if (usesinfo.style.display === "block") {
 
 
     $(".food").each(function(){
            // Test if the div element is empty
            if($(this).is(":empty")){
-               $(this).css("background", "#476BC7");
+             $(this).css("background", "#476BC7");
+             // 🍄 🍄 wood 🍄 🍄
+             $(".im_talkin.wood").css("background", "#1b2603");
+             $(".inmysleep.wood").css("background", "#baba02");
+             $(".heyo.wood").css("background", "#4d4d00");
+             $(".windand.wood").css("background", "#999900");
+             $(".therain.wood").css("background", "#2b2b00");
+             // 🍄 🍄 fibre 🍄 🍄
+             $(".and_a_peck.fibre").css("background", "#304701");
+             //..//
+             $(".about_you.fibre").css("background", "#a8ba02");
+             $(".causeiloveu.fibre").css("background", "#293d01");
+             //... //
+             $(".andaheap.fibre").css("background", "#3b5900");
+             $(".im_talkin.fibre").css("background", "#1b2603");
+             $(".inmysleep.fibre").css("background", "#baba02");
+             //...//
+             $(".heyo.fibre").css("background", "#4d4d00");
+             //...//
+             $(".therain.fibre").css("background", "#2b2b00");
+             // 🍄 🍄 dye 🍄 🍄
+
+             $(".causeiloveu.dye").css("background", "#293d01");
+             $(".andaheap.dye").css("background", "#3b5900");
+
 
            }
        });
-
   }
-
   else {
-    popdownfood.style.display = "none";
+    // 🍄 🍄 food 🍄 🍄
     $(".bushel.food").css("background", "#4d4d00");
     $(".and_a_peck.food").css("background", "#304701");
     $(".and_a_barrel.food").css("background", "#698000");
@@ -254,31 +328,58 @@ function food_plants_button() {
     $(".windand.food").css("background", "#999900");
     $(".therain.food").css("background", "#2b2b00");
     $(".causeiloveu.food").css("background", "#293d01");
-
   }
 }
 
-function wood_button() {
+// 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄 🍄
+
+
+function wood_plants_button() {
   var popdownwood = document.getElementById("popdownwood");
+  // var fibrehighlight = document.getElementsByClassName("fibre")[0];
   // var moreText = document.getElementById("letslarger");
 
-  if (popdownwood.style.display === "none") {
-    popdownwood.style.display = "block";
-
-
+  if (idinfo.style.display === "block") {
 
 
     $(".wood").each(function(){
            // Test if the div element is empty
            if($(this).is(":empty")){
-               $(this).css("background", "#3C59F4");
+             $(this).css("background", "#3C59F4");
+             // 🍄 🍄 fibre 🍄 🍄
+             $(".and_a_peck.fibre").css("background", "#304701");
+             //..//
+             $(".about_you.fibre").css("background", "#a8ba02");
+             $(".causeiloveu.fibre").css("background", "#293d01");
+             //... //
+             $(".andaheap.fibre").css("background", "#3b5900");
+             $(".im_talkin.fibre").css("background", "#1b2603");
+             $(".inmysleep.fibre").css("background", "#baba02");
+             //...//
+             $(".heyo.fibre").css("background", "#4d4d00");
+             //...//
+             $(".therain.fibre").css("background", "#2b2b00");
+             // 🍄 🍄 dye 🍄 🍄
+             $(".causeiloveu.dye").css("background", "#293d01");
+             $(".andaheap.dye").css("background", "#3b5900");
+             // 🍄 🍄 food 🍄 🍄
+             $(".bushel.food").css("background", "#4d4d00");
+             $(".and_a_peck.food").css("background", "#304701");
+             $(".and_a_barrel.food").css("background", "#698000");
+             $(".andaheap.food").css("background", "#3b5900");
+             $(".quince.food").css("background", "#00292E");
+             $(".heyo.food").css("background", "#4d4d00");
+             $(".windand.food").css("background", "#999900");
+             $(".therain.food").css("background", "#2b2b00");
+             $(".causeiloveu.food").css("background", "#293d01");
+
+
+
            }
        });
-
   }
-
   else {
-    popdownwood.style.display = "none";
+    // 🍄 🍄 wood 🍄 🍄
     $(".im_talkin.wood").css("background", "#1b2603");
     $(".inmysleep.wood").css("background", "#baba02");
     $(".heyo.wood").css("background", "#4d4d00");
@@ -287,6 +388,7 @@ function wood_button() {
 
   }
 }
+
 
 var divState = {};
 function showhide(id) {
