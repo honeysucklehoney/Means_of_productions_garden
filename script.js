@@ -415,4 +415,5 @@ var randomNum_all_plants = Math.floor(Math.random() * all_plants.length);
 var letsgo = all_plants[randomNum_all_plants] + ".html";
 document.getElementById("letsgogo").href = letsgo;
 
+
 }
