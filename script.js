@@ -11,12 +11,12 @@ window.onload = choosePic;
 var fibre_plants = new Array ("Day lily", "Iris", "Milkweed", "Phorium tanax", "Golden hops", "Green willow", "Hazel", "Yellow willow","Bamboo", "Blackberry (himalayan and thornless)", "Yucca");
 var dye_plants = new Array ("Tea bush", "Elderberry", "Lupine", "Poke weed", "Madder root", "Coreopsis", "St.john's wort", "Japanese indigo", "Woad", "Blood root", "Weld");
 var fibre_trees= new Array ("Green willow", "Bamboo", "Yellow willow", "Elderberry");
-var food_S = new Array ("tanzi","tea bush", "Sunchoke", "cumfrey", "elecampane", "mustard green");
+var food_S = new Array ("tanzi","tea bush", "Sunchoke", "cumfrey", "elecampane", "Dill weed");
 var fruit_trees= new Array ("Cherry_tree", "Plum tree", "Apple_tree"); //liberty apple and snow apple have been combined due to lack of imagery//
 var bottom_plants = new Array ("tansy", "fireweed", "lupine", "furny stuff");
 var nettle_n_such = new Array ("nettle","organgrapes");
 var nettle_alt = new Array ("nettle2", "nettle3");
-var food = new Array ("Blackberry (himalayan and thornless)", "Rasberry", "Apple tree", "Plum tree", "Strawberry", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Sunchoke", "Plantain","Mustard green", "Nootka rose", "Quince", "Red currant");
+var food = new Array ("Blackberry (himalayan and thornless)", "Rasberry", "Apple tree", "Plum tree", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Sunchoke", "Plantain","Dill weed", "Nootka rose", "Quince");
 var wood = new Array ("Cherry tree", "Apple tree", "Empress tree", "Green willow", "Chestnut", "Bamboo", "Ocean spray (iron wood)")
 function choosePic() {
 
@@ -408,7 +408,7 @@ function showhide(id) {
 
 function letsgo(){
 
-var all_plants = new Array ("Tea bush", "Elderberry", "Lupine", "Poke weed", "Madder root", "Coreopsis", "St.john's wort", "Japanese indigo", "Woad", "Blood root", "Weld","Day lily", "Iris", "Milkweed", "Phorium tanax", "Golden hops", "Green willow", "Hazel", "Yellow willow","Bamboo", "Blackberry (himalayan and thornless)", "Yucca","Blackberry (himalayan and thornless)", "Rasberry", "Apple tree", "Plum tree", "Strawberry", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Sunchoke", "Plantain","Mustard green", "Nootka rose", "Quince", "Red currant", "Cherry tree", "Apple tree", "Empress tree", "Green willow", "Chestnut", "Bamboo", "Ocean spray (iron wood)");
+var all_plants = new Array ("Tea bush", "Elderberry", "Lupine", "Poke weed", "Madder root", "Coreopsis", "St.john's wort", "Japanese indigo", "Woad", "Blood root", "Weld","Day lily", "Iris", "Milkweed", "Phorium tanax", "Golden hops", "Green willow", "Hazel", "Yellow willow","Bamboo", "Blackberry (himalayan and thornless)", "Yucca","Blackberry (himalayan and thornless)", "Rasberry", "Apple tree", "Plum tree", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Sunchoke", "Plantain","Dill weed", "Nootka rose", "Quince", "Cherry tree", "Apple tree", "Empress tree", "Green willow", "Chestnut", "Bamboo", "Ocean spray (iron wood)");
 var randomNum_all_plants = Math.floor(Math.random() * all_plants.length);
 
 
