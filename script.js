@@ -17,7 +17,7 @@ var dye_plants = new Array ("Tea plant", "Elderberry", "Lupine", "Pokeweed", "Ma
 // // var nettle_n_such = new Array ("nettle","organgrapes");
 // // var nettle_alt = new Array ("nettle2", "nettle3");
 var food = new Array ("Blackberry (himalayan and thornless)", "Raspberry", "Apple tree", "Plum tree", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Sunchoke", "Plantain","Fennel", "Nootka rose", "Quince", "Comfrey", "Golden hops");
-var wood = new Array ("Cherry tree", "Apple tree", "Paulownia tree", "Green willow", "Chestnut", "Bamboo", "Ocean spray (ironwood)", "White ash", "Yellow willow")
+var wood = new Array ("Cherry tree", "Apple tree", "Paulownia tree", "Green willow", "Chestnut", "Bamboo", "Ocean spray (ironwood)", "White ash", "Yellow willow");
 function choosePic() {
 
 var randomNum = Math.floor(Math.random() * food.length);
@@ -408,7 +408,7 @@ function showhide(id) {
 
 function letsgo(){
 
-var all_plants = new Array ("Tea plant", "Elderberry", "Lupine", "Pokeweed", "Madder root", "Coreopsis", "St.john's wort", "Japanese indigo", "Woad", "Bloodroot", "Weld","Daylily", "Iris", "Milkweed", "Phormium tenax", "Golden hops", "Green willow", "Hazel", "Yellow willow","Bamboo", "Yucca","Blackberry (himalayan and thornless)", "Raspberry", "Apple tree", "Plum tree", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Sunchoke", "Plantain","Fennel", "Nootka rose", "Quince", "Cherry tree", "Apple tree", "Paulownia tree", "Green willow", "Chestnut", "Bamboo", "Ocean spray (ironwood)", "Tansy", "White ash", "Comfrey";
+var all_plants = new Array ("Tea plant", "Elderberry", "Lupine", "Pokeweed", "Madder root", "Coreopsis", "St.john's wort", "Japanese indigo", "Woad", "Bloodroot", "Weld","Daylily", "Iris", "Milkweed", "Phormium tenax", "Golden hops", "Green willow", "Hazel", "Yellow willow","Bamboo", "Yucca","Blackberry (himalayan and thornless)", "Raspberry", "Apple tree", "Plum tree", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Sunchoke", "Plantain","Fennel", "Nootka rose", "Quince", "Cherry tree", "Apple tree", "Paulownia tree", "Green willow", "Chestnut", "Bamboo", "Ocean spray (ironwood)", "Tansy", "White ash", "Comfrey");
 var randomNum_all_plants = Math.floor(Math.random() * all_plants.length);
 
 
