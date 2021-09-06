@@ -16,8 +16,8 @@ var dye_plants = new Array ("Tea plant", "Elderberry", "Lupine", "Pokeweed", "Ma
 // // var bottom_plants = new Array ("Tansy", "fireweed", "lupine", "furny stuff");
 // // var nettle_n_such = new Array ("nettle","organgrapes");
 // // var nettle_alt = new Array ("nettle2", "nettle3");
-var food = new Array ("Blackberry (himalayan and thornless)", "Raspberry", "Apple tree", "Plum tree", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Sunchoke", "Plantain","Fennel", "Nootka rose", "Quince", "Comfrey");
-var wood = new Array ("Cherry tree", "Apple tree", "Paulownia tree", "Green willow", "Chestnut", "Bamboo", "Ocean spray (ironwood)", "White ash")
+var food = new Array ("Blackberry (himalayan and thornless)", "Raspberry", "Apple tree", "Plum tree", "Blueberry", "Cherry tree", "Spruce tree", "Oregon grape", "Elderberry", "Sunchoke", "Plantain","Fennel", "Nootka rose", "Quince", "Comfrey", "Golden hops");
+var wood = new Array ("Cherry tree", "Apple tree", "Paulownia tree", "Green willow", "Chestnut", "Bamboo", "Ocean spray (ironwood)", "White ash", "Yellow willow")
 function choosePic() {
 
 var randomNum = Math.floor(Math.random() * food.length);
