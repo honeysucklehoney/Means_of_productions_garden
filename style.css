@@ -641,6 +641,7 @@ padding-right: 20px;
 border-style: solid;
 border-color: yellow;
 position: absolute; left: 725px; top: 400px;
+text-align: center;
 font-family: bluunext;
 color:black;
 font-size: 20px;
@@ -685,7 +686,7 @@ background-color: white  ;
 font-family: tag_font;
 font-size: 15px;
 width: 300px;
-height: 450px;
+height: 400px;
 box-shadow: 5px 5px 15px yellow;
 border: 1px solid black;
 }
@@ -700,8 +701,15 @@ h2 {
 .textblock {
 
 padding: 10px;
-margin-top: 4 0px;
+margin-top: 60px;
+margin-bottom: 10px;
+position: absolute;
 font-size: 14px;
+top: 50%;
+height: 250px;
+overflow: scroll;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
 
 }
 
